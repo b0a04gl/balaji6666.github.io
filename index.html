@@ -3,6 +3,28 @@
     <head>
         <meta charset="utf-8">
         <title>Balaji Arumugam A.K.A Foobar </title>
+
+	 <script src= 
+	    "https://smtpjs.com/v3/smtp.js"> 
+	  </script> 
+
+	<script type="text/javascript"> 
+    function sendEmail(name,email,subject,message) { 
+      Email.send({ 
+        Host: "smtp.gmail.com", 
+        Username: "balaji.foo404@gmail.com", 
+        Password: "typ0err0r", 
+        To: 'balaji.foo404@gmail.com', 
+        From: email, 
+        Subject: subject, 
+        Body: message, 
+      }) 
+        .then(function (message) { 
+          alert("mail sent successfully") 
+        }); 
+    } 
+  </script> 
+
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Balaji Arumugam Foobar" name="keywords">
         <meta content="Balaji Arumugam Foobar" name="description">
@@ -283,7 +305,7 @@ I'm an Full Stack App Developer striving to improve myself with dedication towar
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>My Portfolio</p>
-                    <h2>My Fanatic & Proof</h2>
+                    <h2>My Fanatics & Proofs</h2>
                 </div>
                 <div class="row">
                     <div class="col-12">
@@ -695,8 +717,8 @@ I'm an Full Stack App Developer striving to improve myself with dedication towar
                                         <p class="help-block"></p>
                                     </div>
                                     <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
+                                        <button class="btn" type="submit" id="sendMessageButton" >Send Message</button>
+                                    </divdocument.getElementById('a').value,>
                                 </form>
                             </div>
                         </div>
